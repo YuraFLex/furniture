@@ -1,3 +1,5 @@
+// Открытие/заыкртиые мобильного меню
+
 (() => {
   const refs = {
     openMobileBtn: document.querySelector('[data-menu-open]'),
@@ -13,6 +15,7 @@
   }
 })();
 
+// Прокрутка сайта вверх по кнопке в футере
 (() => {
   document.querySelector('.footer-btn__up').onclick = () => {
     window.scrollTo({
