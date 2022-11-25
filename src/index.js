@@ -12,3 +12,13 @@
     refs.mobile.classList.toggle('is-open');
   }
 })();
+
+(() => {
+  document.querySelector('.footer-btn__up').onclick = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+})();
