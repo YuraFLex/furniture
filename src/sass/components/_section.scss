@@ -1,0 +1,10 @@
+.section {
+  padding-top: 50px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 100px;
+  }
+}
+
+.section-no-padding {
+  padding-top: 0;
+}

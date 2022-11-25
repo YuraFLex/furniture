@@ -1,0 +1,94 @@
+.privileg-list {
+  color: #fff;
+
+  @media screen and(min-width: 768px) {
+  }
+
+  @media screen and(min-width: 1024px) {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.privileg-item {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 1024px) {
+    width: calc((100% - 60px) / 3);
+  }
+}
+
+.thumb {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:hover .overlay {
+    transform: translateY(-100%);
+  }
+}
+
+.privileg-btn {
+  position: absolute;
+  top: 50%;
+
+  display: none;
+  transform: translateY(-50%);
+}
+
+.btn__left {
+  left: 15px;
+}
+
+.btn__right {
+  right: 15px;
+}
+
+.overlay {
+  position: absolute;
+  padding: 15px;
+  transition: transform 250ms linear;
+  text-align: left;
+  transform: translateY(-35%);
+
+  @media screen and(min-width: 405px) {
+    transform: translateY(-45%);
+  }
+
+  @media screen and(min-width: 1024px) {
+    padding: 20px;
+    transform: translateY(-35%);
+  }
+
+  @media screen and(min-width: 1190px) {
+    transform: translateY(-43%);
+    padding: 30px;
+  }
+
+  @media screen and(min-width: 1220px) {
+    transform: translateY(-45%);
+  }
+
+  @media screen and(min-width: 1746px) {
+    transform: translateY(-58%);
+  }
+}
+
+.overlay-title {
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #44c697;
+
+  @media screen and(min-width: 768px) {
+    font-size: 22px;
+  }
+
+  @media screen and(min-width: 1500px) {
+    font-size: 36px;
+  }
+}

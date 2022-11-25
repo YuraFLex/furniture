@@ -1,0 +1,48 @@
+.about-bg {
+  @media screen and (min-width: 1024px) {
+    background-image: url(./../images/about/aboutbg.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+}
+
+.about-inner {
+  width: 100%;
+
+  @media screen and (min-width: 1024px) {
+    padding: 100px 0;
+  }
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 30px;
+  background: #fff;
+  border-right: 15px solid #44c697;
+  border-radius: 0px 3px 3px 0px;
+  text-align: left;
+
+  @media screen and (min-width: 1024px) {
+    width: 500px;
+  }
+
+  @media screen and (min-width: 1350px) {
+    width: 790px;
+  }
+}
+
+.about-text {
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.about-text__accent {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #44c697;
+}
