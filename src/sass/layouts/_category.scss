@@ -37,6 +37,12 @@
   text-transform: uppercase;
   border: 1px solid transparent;
   background: transparent;
+  font-size: 18px;
+  transition: border-bottom 250ms linear;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+  }
 }
 
 .category-icon {
@@ -50,15 +56,6 @@
   @media screen and(min-width: 1190px) {
     width: 100px;
     height: 100px;
-  }
-}
-
-.category-text {
-  font-size: 18px;
-  transition: border-bottom 250ms linear;
-
-  @media screen and (min-width: 1024px) {
-    font-size: 24px;
   }
 }
 
