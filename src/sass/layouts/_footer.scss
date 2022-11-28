@@ -139,6 +139,11 @@
   }
 }
 
+.footer-contact__number {
+  display: inline-flex;
+  flex-direction: column;
+}
+
 .copyright {
   width: 100%;
   display: flex;
