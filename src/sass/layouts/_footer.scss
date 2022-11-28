@@ -128,6 +128,7 @@
   column-gap: 5px;
   margin-bottom: 15px;
   stroke: #fff;
+  transition: color 250ms linear, stroke 250ms linear;
 
   &:last-child {
     margin-bottom: 0;
