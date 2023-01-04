@@ -119,6 +119,7 @@
 }
 
 .mobile-menu__nav-list {
+  text-align: end;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -140,6 +141,10 @@
   flex-direction: column;
   margin-top: auto;
   gap: 50px;
+}
+
+.order-link__mobile {
+  margin-left: auto;
 }
 
 .mobile {
