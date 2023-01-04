@@ -16,6 +16,7 @@
 })();
 
 // Прокрутка сайта вверх по кнопке в футере
+
 (() => {
   document.querySelector('.footer-btn__up').onclick = () => {
     window.scrollTo({
