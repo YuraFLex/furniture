@@ -6,6 +6,50 @@
   }
 }
 
+.slider {
+  display: flex;
+  overflow: hidden;
+  max-width: 462px;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  bottom: 23%;
+  z-index: 100;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: transparent;
+
+  @media screen and (max-width: 767px) {
+    bottom: 50px;
+  }
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 43%;
+  background: url('../images/hero-left.svg') 0 50% / 100% no-repeat;
+
+  @media screen and (max-width: 480px) {
+    left: 40%;
+  }
+}
+
+.slider .slick-arrow.slick-next {
+  right: 40%;
+
+  background: url('../images/hero-right.svg') 0 50% / 100% no-repeat;
+
+  @media screen and (max-width: 480px) {
+    right: 35%;
+  }
+}
+
+// .slider .slick-list {
+//   max-width: 426px;
+// }
+
 .hero-content {
   padding: 100px 10px;
   width: 100%;
